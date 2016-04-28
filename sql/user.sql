@@ -1,0 +1,10 @@
+CREATE DATABASE user;
+USE user;
+CREATE TABLE user (
+  id       INT(11) UNIQUE AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255),
+  password VARCHAR(255)
+);
+
+SELECT *
+FROM user.user;
